@@ -1,0 +1,9 @@
+n=int(input())
+n_list=list()
+for i in range(0,n):
+    x=int(input())
+    y=5*2*x
+    n_list.append(y)
+
+for i in n_list:
+    print(i)
