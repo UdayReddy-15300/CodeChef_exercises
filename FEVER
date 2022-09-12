@@ -1,0 +1,10 @@
+t=int(input())
+t_list=[]
+for i in range(0,t):
+    n=int(input())
+    if n>98:
+        t_list.append('yes')
+    else:
+        t_list.append('no')
+for i in t_list:
+    print(i)
