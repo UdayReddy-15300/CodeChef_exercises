@@ -1,0 +1,8 @@
+n=int(input())
+n_list=[]
+for i in range(0,n):
+    x,p,q=map(int,input().split())
+    money=(p-q)*x
+    n_list.append(money)
+for i in n_list:
+    print(i)
