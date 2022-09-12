@@ -1,0 +1,12 @@
+n=int(input())
+n_list=[]
+for i in range(0,n):
+    x,y=map(int,input().split())
+    if x<y:
+        n_list.append('repair')
+    elif x>y:
+        n_list.append('new phone')
+    elif x==y:
+        n_list.append('any')
+for i in n_list:
+    print(i)
