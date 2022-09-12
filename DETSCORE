@@ -1,0 +1,9 @@
+t=int(input())
+t_list=list()
+for i in range(0,t):
+    x,n=map(int,input().split())
+    score=int((x/10)*n)
+    t_list.append(score)
+
+for i in t_list:
+    print(i)
