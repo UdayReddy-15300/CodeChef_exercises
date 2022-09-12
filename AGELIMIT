@@ -1,0 +1,11 @@
+n=int(input())
+n_list=list()
+for i in range(0,n):
+    x,y,a=map(int,input().split())
+    if a>=x and a<y:
+        n_list.append('yes')
+    else:
+        n_list.append('no')
+
+for i in n_list:
+    print(i)
