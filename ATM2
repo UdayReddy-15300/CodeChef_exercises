@@ -1,0 +1,16 @@
+t=int(input())
+t_list=list()
+for i in range(0,t):
+    n,k=map(int,input().split())
+    money=list(map(int,input().split()))
+    s=''
+    for j in money:
+        if k-j>=0:
+            s=s+'1'
+            k=k-j
+        elif k-j<0:
+            s=s+'0'
+    t_list.append(s)
+
+for i in t_list:
+    print(i)
